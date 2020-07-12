@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jquery cardio - Effects and Animate</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h2>jQuery + AJAX</h2>
+      <div class="result"></div>
+
+      <div>
+        <h2>api request</h2>
+        <button id="press-me">PRESS ME</button>
+        <ul class="results"></ul>
+        <h2>POSTS</h2>
+        <form
+          action="https://jsonplaceholder.typicode.com/posts"
+          class="post-form"
+        >
+          <input type="text" id="title" placeholder="title" />
+          <br />
+          <textarea name="body" id="text-body" placeholder="Body"></textarea>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+    <footer style="position: absolute; margin-top: 80vh;">
+      <a href="index.html">1</a>
+      <a href="jqueryd2.html">2</a>
+      <a href="jqueryd3.html">3</a>
+      <a href="jqueryd4.html">4</a>
+      <a href="jqueryd5-ajax.html">5</a>
+    </footer>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/ajax.js"></script>
+  </body>
+</html>
